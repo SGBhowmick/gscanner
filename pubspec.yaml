@@ -1,0 +1,35 @@
+name: gscanner
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  file: ^7.0.1
+  file_picker: ^10.3.6
+  flutter:
+    sdk: flutter
+  flutter_colorpicker: ^1.1.0
+  google_mlkit_document_scanner: ^0.4.0
+  open_filex: ^4.7.0
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.3
+  video_player: ^2.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/gbscanner.png
+    - assets/splash_video.mp4
